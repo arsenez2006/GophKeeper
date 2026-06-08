@@ -1,0 +1,46 @@
+name: "Backlog Task"
+description: Add a new task, feature, or improvement to the project backlog
+title: "[feat]: [Short task title]"
+labels: ["triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: Clear and concise description of what needs to be done. What is the problem we are solving, or what is the goal of this task?
+      placeholder: "As a... I want to... So that..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 🎯 Scope
+      description: Which component does this task affect?
+      options:
+        - Backend API
+        - CLI Application
+        - Shared / Infrastructure
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 🔗 References
+      description: Links to related materials, technical specifications, or architectural guidelines. If this task depends on another issue, link it here.
+      placeholder: "Related issues: #\nDocumentation ref: CONTRIBUTING.md"
+    validations:
+      required: false
+
+  - type: textarea
+    id: dod
+    attributes:
+      label: 🏁 Definition of Done (DoD)
+      description: Describe the specific criteria that must be fulfilled before this task can be moved to "Done" and merged into the integration branch.
+      placeholder: |
+        - [ ] Code is implemented and tested
+        - [ ] Documentation is updated
+        - [ ] Code review is completed
+    validations:
+      required: true
