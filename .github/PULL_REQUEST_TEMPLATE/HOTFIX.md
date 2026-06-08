@@ -1,7 +1,12 @@
 ## 🚨 Critical Bug Description
 
-- **Target branch Check:** [ ] This PR targets **`main`** (or code will be backported to `dev` immediately after).
-- **Impact Level:** [ ] High (Service Outage) | [ ] Medium (Degraded Performance) | [ ] Low (Edge Case)
+**Target branch Check:** 
+- [ ] This PR targets **`main`** (or code will be backported to `dev` immediately after).
+
+**Impact Level:**
+- [ ] High (Service Outage) 
+- [ ] Medium (Degraded Performance) 
+- [ ] Low (Edge Case)
 
 <!-- Describe the bug reproduction here. -->
 
