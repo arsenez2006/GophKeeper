@@ -60,7 +60,8 @@ We adhere to the standard **GitFlow** branching model. All development is done i
 ### Supporting Branches:
 
 * `feature/*`: Used to develop new features. Branches off `dev`, merges back into `dev`.
-* `hotfix/*`: Used for quick production fixes. Branches off `main`, merges into both `main` and `develop`.
+* `hotfix/*`: Used for quick production fixes. Branches off `main`, merges into both `main` and `dev`.
+* `docs/*`: Used for documentation. Branches off `dev`, merges back into `dev`.
 
 ### Steps to Implement a New Feature:
 
