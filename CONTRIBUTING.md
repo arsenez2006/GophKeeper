@@ -101,11 +101,13 @@ We manage both the **Backend API** and the **CLI Application** inside this singl
 │   ├── domain          # Pure business entities
 │   ├── repositories    # Infrastructure layer
 │   └── services        # Application business logic layer
-└── cli                 # Client CLI Application
-    ├── client          # HTTP API client layer
-    ├── commands        # CLI command definitions and user interface
-    ├── core            # Cryptographic core
-    └── storage         # Local secret database handlers and schemas
+├── cli                 # Client CLI Application
+│   ├── client          # HTTP API client layer
+│   ├── commands        # CLI command definitions and user interface
+│   ├── core            # Cryptographic core
+│   └── storage         # Local secret database handlers and schemas
+├── docs                # Documentation
+└── shared              # Shared components
 ```
 ### 🚫 1. Cross-Boundary Rule
 
